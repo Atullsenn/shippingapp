@@ -16,13 +16,17 @@ import Notification from "./pages/Notification";
 import CustomClearaceOrder from "./pages/CustomClearaceOrder";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermConditions from "./pages/TermConditions";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <Router>
-   
+     
+     
       <SideBar>
+      <Header/>
         <Routes>
+      
           <Route path="/" element={<Dashboard />} />
           <Route path="/users" element={<Users />} />
           <Route path="/messages" element={<Messages />} />

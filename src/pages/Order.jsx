@@ -1,5 +1,5 @@
 const Order = () => {
-  return <div className="title"> Order</div>;
+  return <div className="title" style={{width:'560%'}}> Order</div>;
 };
 
 export default Order;

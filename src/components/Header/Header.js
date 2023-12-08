@@ -2,16 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='header'>
-       <div>
-        <ul>
-            <li>Profile</li>
-            <li>signup</li>
-            <li>login</li>
-        </ul>
-       </div>
+  <header style={{ width: '1000%', height:'50px', background: '#F5F5F5', marginTop: '-10px', marginLeft: '-8px', marginBottom: '0px'}}>
 
-    </div>
+  </header>
   )
 }
 

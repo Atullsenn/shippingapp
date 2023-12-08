@@ -34,9 +34,11 @@ main {
 .logo {
   font-size: 18px;
   line-height: 0;
+  color: #242124;
 }
 .bars {
   width: 30px;
+  color: #242124;
 }
 .hide {
   display: none;
